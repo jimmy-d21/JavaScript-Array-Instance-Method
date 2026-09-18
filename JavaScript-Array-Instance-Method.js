@@ -85,3 +85,8 @@ console.log(new Array(3));
 // Output:
 // [3]
 // [empty × 3]
+
+// Example 3: Mixed types
+console.log(Array.of("A", { id: 1 }, true));
+// Output:
+// ["A", { id: 1 }, true]
