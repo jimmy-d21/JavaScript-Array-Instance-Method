@@ -11,3 +11,8 @@ console.log(Array.isArray([1, 2, 3]));
 console.log(Array.isArray({ name: "Alice" }));
 // Output:
 // false
+
+// Example 3: Checking string values
+console.log(Array.isArray("Hello"));
+// Output:
+// false
