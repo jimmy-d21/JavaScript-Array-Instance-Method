@@ -78,3 +78,10 @@ async function* generate() {
 console.log(Array.of(1, 2, 3));
 // Output:
 // [1, 2, 3]
+
+// Example 2: Comparison with Array constructor for single number
+console.log(Array.of(3));
+console.log(new Array(3));
+// Output:
+// [3]
+// [empty × 3]
