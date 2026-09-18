@@ -6,3 +6,8 @@
 console.log(Array.isArray([1, 2, 3]));
 // Output:
 // true
+
+// Example 2: Checking non-array values
+console.log(Array.isArray({ name: "Alice" }));
+// Output:
+// false
