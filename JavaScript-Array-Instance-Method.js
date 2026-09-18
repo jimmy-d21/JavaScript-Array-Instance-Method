@@ -25,3 +25,9 @@ const chars = Array.from("JS");
 console.log(chars);
 // Output:
 // ["J", "S"]
+
+// Example 2: Converting a Set to an Array
+const set = new Set([1, 2, 2, 3]);
+console.log(Array.from(set));
+// Output:
+// [1, 2, 3]
