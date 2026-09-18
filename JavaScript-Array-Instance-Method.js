@@ -90,3 +90,20 @@ console.log(new Array(3));
 console.log(Array.of("A", { id: 1 }, true));
 // Output:
 // ["A", { id: 1 }, true]
+
+// 2. Array Instance Methods
+// Adding and Removing Elements
+// push()
+// Array.prototype.push()
+// Adds one or more elements to the end of an array and returns the new length.
+
+const fruits = ["Apple", "Banana"];
+
+const newLength = fruits.push("Orange");
+
+console.log(fruits);
+console.log(newLength);
+
+// Output:
+// ["Apple", "Banana", "Orange"]
+// 3
