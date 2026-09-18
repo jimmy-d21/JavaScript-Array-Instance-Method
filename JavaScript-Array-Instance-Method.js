@@ -16,3 +16,12 @@ console.log(Array.isArray({ name: "Alice" }));
 console.log(Array.isArray("Hello"));
 // Output:
 // false
+
+// Array.from()
+// Creates a new Array instance from an array-like or iterable object.
+
+// Example 1: Converting a String to an Array
+const chars = Array.from("JS");
+console.log(chars);
+// Output:
+// ["J", "S"]
