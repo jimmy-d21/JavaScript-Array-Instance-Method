@@ -70,3 +70,11 @@ async function* generate() {
 })();
 // Output:
 // [10, 20]
+
+// Array.of()
+// Creates a new Array instance with a variable number of arguments, regardless of argument type or count.
+
+// Example 1: Basic numbers
+console.log(Array.of(1, 2, 3));
+// Output:
+// [1, 2, 3]
