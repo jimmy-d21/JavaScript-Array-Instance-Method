@@ -31,3 +31,9 @@ const set = new Set([1, 2, 2, 3]);
 console.log(Array.from(set));
 // Output:
 // [1, 2, 3]
+
+// Example 3: Using the optional mapping function
+const doubled = Array.from([1, 2, 3], (x) => x * 2);
+console.log(doubled);
+// Output:
+// [2, 4, 6]
