@@ -37,3 +37,19 @@ const doubled = Array.from([1, 2, 3], (x) => x * 2);
 console.log(doubled);
 // Output:
 // [2, 4, 6]
+
+// Array.fromAsync()
+// Creates a new Array instance from an async iterable, iterable, or array-like object.
+
+// Example 1: Converting an async generator to an Array
+async function* generate() {
+  yield 1;
+  yield 2;
+}
+
+(async () => {
+  const result = await Array.fromAsync(generate());
+  console.log(result);
+})();
+// Output:
+// [1, 2]
