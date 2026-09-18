@@ -62,3 +62,11 @@ async function* generate() {
 })();
 // Output:
 // [10, 20]
+
+// Example 3: Applying an async map callback
+(async () => {
+  const result = await Array.fromAsync([1, 2], async (x) => x * 10);
+  console.log(result);
+})();
+// Output:
+// [10, 20]
