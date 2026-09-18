@@ -53,3 +53,12 @@ async function* generate() {
 })();
 // Output:
 // [1, 2]
+
+// Example 2: Converting an array of Promises
+(async () => {
+  const promises = [Promise.resolve(10), Promise.resolve(20)];
+  const result = await Array.fromAsync(promises);
+  console.log(result);
+})();
+// Output:
+// [10, 20]
